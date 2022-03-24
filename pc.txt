@@ -3,3 +3,5 @@ Ram 8 gb.
 sd 1tb.
 Pantalla 28'
 Parlantes.
+Mouse.
+
