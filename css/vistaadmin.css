@@ -1,0 +1,14 @@
+.div{
+    background-color: rgba(127, 247, 173, 0.418);
+    height: 50px;
+    margin-top: 5px;
+  }
+  .nav-link {
+    font-size: 15px;
+    color: black;
+  }
+  img {
+    position: relative;
+    right: 17px;
+    margin-top: 0;
+  }

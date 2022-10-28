@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(228, 250, 215, 0.466);
+  }
+  thead  {
+    background-color: #a2e6bcb6;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .col-lg-12  {
+    background-image: url(../img/marco3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }

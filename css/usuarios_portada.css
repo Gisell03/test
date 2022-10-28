@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(250, 235, 215, 0.466);
+  }
+  thead  {
+    background-image: url(../img/marco.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #table_id  {
+    background-image: url(../img/marco.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
