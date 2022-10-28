@@ -8,7 +8,7 @@ $email=(isset($_POST['email']))?$_POST['email']:"";
 $password=(isset($_POST['password']))?$_POST['password']:"";
 $role=(isset($_POST['role']))?$_POST['role']:"";
 
-$conexion = mysqli_connect("localhost", "root", "", "usuarios") or
+$conexion = mysqli_connect("b7ebj5x4vmkrzjzxbsyb-mysql.services.clever-cloud.com", "uq7biqqrwvtadijq", "TOlllRkGcFgCy9TtKkdz", "b7ebj5x4vmkrzjzxbsyb") or
 die("Problemas con la conexión");
 
 
