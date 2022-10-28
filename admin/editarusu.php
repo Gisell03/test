@@ -36,7 +36,7 @@
 </style>
 <?php
     $id=$_GET['id'];
-    $conexion = mysqli_connect("localhost", "root", "", "usuarios") or
+    $conexion = mysqli_connect("b7ebj5x4vmkrzjzxbsyb-mysql.services.clever-cloud.com", "uq7biqqrwvtadijq", "TOlllRkGcFgCy9TtKkdz", "b7ebj5x4vmkrzjzxbsyb") or
 die("Problemas con la conexión");
   $registros =mysqli_query($conexion,"SELECT * FROM `mainlogin` WHERE id=$id"); 
   ?>
@@ -45,7 +45,7 @@ die("Problemas con la conexión");
     <?php
     if ($_POST){
     $a=$_GET['id'];
-    $conexion = mysqli_connect("localhost", "root", "", "usuarios") or
+    $conexion = mysqli_connect("b7ebj5x4vmkrzjzxbsyb-mysql.services.clever-cloud.com", "uq7biqqrwvtadijq", "TOlllRkGcFgCy9TtKkdz", "b7ebj5x4vmkrzjzxbsyb") or
 die("Problemas con la conexión");
 
     $registros= mysql_query("SELECT * FROM `mainlogin` WHERE `mainlogin`") or
